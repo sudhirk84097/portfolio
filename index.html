@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhir</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/07c65afe44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="sticky-nav">
+                <img src="images/sudhirlogo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="fab" class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="fab" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <span>Sudhir</span> Kumar<br>a Full Stack Web Developer.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sudhir_pic.jpg" alt="userimg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <P>Dedicated MERN stack developer with a commitment to designing and implementing scalable Full Stack applications. Eager to contribute
+                        expertise in MongoDB, React, and Node.js to foster innovation within collaborative teams, facilitating the development of sophisticated
+                        web applications.</P>
+
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experiences</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <div class="row1">
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>HTML</span><br><img style="height: 90px;" src="https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-5-1/512/38-512.png" alt="html"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>CSS</span><br><img style="height: 90px;" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="css"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>JavaScript</span><br><img style="height: 90px;" src="https://freeiconshop.com/wp-content/uploads/edd/js-flat.png" alt="javascript"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>Api</span><br><img style="height: 90px;" src="https://img.icons8.com/color/80/000000/api.png" alt="api"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>git</span><br><img style="height: 90px;" src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/git-icon.png" alt="git"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>React</span><br><img style="height: 90px;" src="https://i.pinimg.com/originals/f3/47/70/f34770503b90f26ea389f557500ff825.png" alt="react"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>Node.js</span><br><img style="height: 90px;" src="https://img.icons8.com/color/80/000000/nodejs.png" alt="Node"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>Python</span><br><img style="height: 90px;" src="https://img.icons8.com/color/80/000000/python.png" alt="python"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>express.js</span><br><img style="height: 90px;" src="https://vikash-port.netlify.app/Images/expressjs-icon.jpg" alt="express"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>Mongodb</span><br><img style="height: 90px;" src="https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png" alt="mongo"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="rows">
+                                <div class="column">
+                                    <ul class="skill-row">
+                                        <li><span>MySql</span><br><img style="height: 90px;" src="https://w7.pngwing.com/pngs/384/848/png-transparent-mysql-php-database-javascript-ajax-carnifex-blue-text-logo-thumbnail.png" alt="mysql"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Internship</span><br>YHills Edutech Private Limited<br>October 2022 - December 2022, Noida</li>
+                                <!-- <li><span>2222</span><br>Designing web/app interfaces</li>
+                                <li><span>2545</span><br>Designing web/app interfaces</li> -->
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Matriculation (10th)</span><br>B.D. Public School • Patna • 2016 • 7.8 CGPA</li>
+                                <li><span>Intermediate (12th)</span><br>Patel College • Bikramganj • 2019 • 69.6%</li>
+                                <li><span>Bachelor's in Computer Science and Engineering</span><br>Sri Krishna Institute of Technology • Bangalore • 2023 • 7.31 CGPA</li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------projects--------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-cloud-sun-rain"></i>
+                    <h2>Weather Application</h2>
+                    <h3>December 2023 - December 2023</h3>
+                    <p>Conceptualized and executed a comprehensive weather application, offering users a visually appealing interface for easy navigation and
+                        access to accurate, real-time weather forecasts.<br>Implemented API integration to seamlessly retrieve and display real-time weather data, ensuring the application remains consistently
+                        up-to-date.<br>Leveraged external weather APIs to enhance the application's functionality, providing users with accurate and reliable information.
+                        </p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lines-leaning"></i>
+                    <h2>Library Management System</h2>
+                    <h3>May 2023 - May 2023</h3>
+                    <p>Created an efficient Library Management System using Java Script and Redis, which enhances library operations, streamlines book
+                        borrowing, and facilitates inventory management.<br>Implemented an automated fine calculation and notification system for overdue book returns, driving a notable 20% surge in on-time
+                        returns and successful retrieval of previously unreturned books.<br>Maximized performance by implementing Redis for rapid data access and efficient caching, resulting in a 70% reduction in data retrieval
+                        time and a 25% improvement in overall system responsiveness.
+                        </p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <h2>Forensic Face Sketch Construction and Criminal identification using Deep Learning</h2>
+                    <h3>September 2022 - May 2023</h3>
+                    <p>Executed my Final Year Project by conceptualizing and developing a system that generates facial sketches of suspects and applies Deep
+                        Learning to identify potential matches in the criminal database.<br>Engineered a user-friendly GUI application utilizing JavaFX, enabling users to create accurate suspect sketches interactively.
+                        Simultaneously, led Java-based backend development efforts to ensure seamless integration. Resulted in a 30% reduction in sketch
+                        creation time, enhancing efficiency and user experience.<br>Integrated cutting-edge face recognition models from AWS for criminal identification, resulting in a 20% improvement in match
+                        accuracy. Efficiently managed data storage using AWS S3 Bucket Database, reducing retrieval time by 25%.</p>
+                         <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+
+                    <img src="https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg" alt="work1">
+                    <div class="layer">
+                        <h3>Weather Application</h3>
+                        <p>Conceptualized and executed a comprehensive weather application, offering users a visually appealing interface for easy navigation and
+                            access to accurate, real-time weather forecasts.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://www.edigitallibrary.com/img/libraryBooks.jpg" alt="work2">
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>Created an efficient Library Management System using Java Script and Redis, which enhances library operations, streamlines book
+                            borrowing, and facilitates inventory management.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://www.ijraset.com/images/text_version_uploads/imag%201_5268.png" alt="work3">
+                    <div class="layer">
+                        <h3>Forensic Face Sketch Construction and Criminal identification using Deep Learning</h3>
+                        <p>Executed my Final Year Project by conceptualizing and developing a system that generates facial sketches of suspects and applies Deep
+                            Learning to identify potential matches in the criminal database.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------contact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sudhirk84097@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9102139745</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/s%C3%BCdh%C3%ADr-k%C3%BCm%C3%A3r-74bb26229/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sudhirk84097"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/sudhirk1998/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/SdhrKmr7"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1tiJXe53hANk8TW735NYB37QnMOt8y6QY/view?usp=sharing" download="resume" class="btn btn2">My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <span>&copy;</span> Sudhir Kumar <i class="fa-solid fa-trademark"></i></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="style.js"></script>
+
+</body>
+</html>
